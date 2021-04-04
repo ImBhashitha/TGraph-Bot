@@ -19,12 +19,12 @@ async def get_tgraph(bot, message):
     if not os.path.isdir(tmp):
         os.makedirs(tmp)
     imgdir = tmp + "/" + str(message.message_id) +".jpg"
-    dwn = await message.reply_text("`Processing...`", True)          
+    dwn = await message.reply_text("`*Processing...*`", True)          
     await bot.download_media(
             message=message,
             file_name=imgdir
         )
-    await dwn.edit_text("`Uploading...`")
+    await dwn.edit_text("`*Uploading...*`")
     try:
         response = upload_file(imgdir)
     except Exception as error:
@@ -39,12 +39,12 @@ async def getvideo(bot, message):
     if not os.path.isdir(tmp):
         os.makedirs(tmp)
     viddir = tmp + "/" + str(message.message_id) +".mp4"
-    dwn = await message.reply_text("`Processing...`", True)          
+    dwn = await message.reply_text("`*Processing...*`", True)          
     await bot.download_media(
             message=message,
             file_name=viddir
         )
-    await dwn.edit_text("`Uploading...`")
+    await dwn.edit_text("`*Uploading...*`")
     try:
         response = upload_file(viddir)
     except Exception as error:
@@ -59,12 +59,12 @@ async def getanimation(bot, message):
     if not os.path.isdir(tmp):
         os.makedirs(tmp)
     gifdir = tmp + "/" + str(message.message_id) +".mp4"
-    dwn = await message.reply_text("`Processing...`", True)          
+    dwn = await message.reply_text("`*Processing...*`", True)          
     await bot.download_media(
             message=message,
             file_name=gifdir
         )
-    await dwn.edit_text("`Uploading...`")
+    await dwn.edit_text("`*Uploading...*`")
     try:
         response = upload_file(gifdir)
     except Exception as error:
