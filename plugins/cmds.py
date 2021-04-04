@@ -17,7 +17,7 @@ async def start(bot, update):
         InlineKeyboardButton('⚙️ Help', callback_data='help_btn'),
         InlineKeyboardButton('Support Group 📌', url='https://t.me/Hackerrdt')
         ],[
-        InlineKeyboardButton('youtube channel', url='https://youtu.be/DIeGH8HumzI'),
+        InlineKeyboardButton('youtube channel 🌟', url='https://youtu.be/DIeGH8HumzI'),
         InlineKeyboardButton('Close 🔐', callback_data='cancel_btn')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -36,7 +36,7 @@ async def help_user(bot, update):
         InlineKeyboardButton('📌 Support Group', url='https://t.me/Hackerrdt'),
         InlineKeyboardButton('Update Channel 📜', url='https://t.me/Network_hacker_bots')
         ],[
-        InlineKeyboardButton('♻️Share', url='tg://msg?text=**Hey%20Broh**%F0%9F%A5%B0%2C%0A__This%20Bot%20Generate%20Telegraph%20Link__%F0%9F%94%A5%0A%0A**Bot%20Link**%20%3A-%20%40TGraphDXBot'),
+        InlineKeyboardButton('♻️Share', url=''),
         InlineKeyboardButton('Close 🔐', callback_data='cancel_btn')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
