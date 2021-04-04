@@ -15,9 +15,9 @@ from translation import Translation
 async def start(bot, update):
     buttons = [[
         InlineKeyboardButton('⚙️ Help', callback_data='help_btn'),
-        InlineKeyboardButton('Support Group 📌', url='https://t.me/Dx_Support')
+        InlineKeyboardButton('Support Group 📌', url='https://t.me/Hackerrdt')
         ],[
-        InlineKeyboardButton('🎸 Source Code', url='https://github.com/Jijinr/TGraph-Bot'),
+        InlineKeyboardButton('youtube channel', url='https://youtu.be/DIeGH8HumzI'),
         InlineKeyboardButton('Close 🔐', callback_data='cancel_btn')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -33,8 +33,8 @@ async def start(bot, update):
 async def help_user(bot, update):
     #logger.info(update)
     buttons = [[
-        InlineKeyboardButton('📌 Support Group', url='https://t.me/Dx_Support'),
-        InlineKeyboardButton('Update Channel 📜', url='https://t.me/DX_Botz')
+        InlineKeyboardButton('📌 Support Group', url='https://t.me/Hackerrdt'),
+        InlineKeyboardButton('Update Channel 📜', url='https://t.me/Network_hacker_bots')
         ],[
         InlineKeyboardButton('♻️Share', url='tg://msg?text=**Hey%20Broh**%F0%9F%A5%B0%2C%0A__This%20Bot%20Generate%20Telegraph%20Link__%F0%9F%94%A5%0A%0A**Bot%20Link**%20%3A-%20%40TGraphDXBot'),
         InlineKeyboardButton('Close 🔐', callback_data='cancel_btn')
@@ -52,7 +52,7 @@ async def help_user(bot, update):
 async def get_me_info(bot, update):
     #logger.info(update)
     buttons = [[
-        InlineKeyboardButton('🎸 Source code', url='https://github.com/Jijinr/TGraph-Bot'),
+        InlineKeyboardButton('Channel ⚡', url='https://t.me/Network_hacker_bots'),
         InlineKeyboardButton('Close 🔐', callback_data='cancel_btn')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
