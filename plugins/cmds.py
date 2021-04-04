@@ -17,7 +17,7 @@ async def start(bot, update):
         InlineKeyboardButton('⚙️ Help', callback_data='help_btn'),
         InlineKeyboardButton('Support Group 📌', url='https://t.me/Hackerrdt')
         ],[
-        InlineKeyboardButton('youtube channel 🌟', url='https://youtu.be/DIeGH8HumzI'),
+        InlineKeyboardButton('youtube channel 🌟', url='https://www.youtube.com/channel/UCD-g7g3-tfvKECxXKqySq7g'),
         InlineKeyboardButton('Close 🔐', callback_data='cancel_btn')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
