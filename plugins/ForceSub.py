@@ -6,7 +6,7 @@ from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant, Usern
 update_channel = UPDATES_CHANNEL
 if update_channel:      
     try:
-        user = await bot.get_chat_member(update_channel, msg.chat.id)
+        user = await bot.get_chat_member(UPDATE_CHANNEL, msg.chat.id)
         if user.status == "kicked":
            await bot.send_message(
                chat_id=msg.chat.id,
@@ -22,7 +22,7 @@ if update_channel:
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/{update_channel}")
+                        InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/{UPDATE_CHANNEL}")
                     ]
                 ]
             ),
