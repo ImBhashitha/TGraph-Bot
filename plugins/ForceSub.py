@@ -10,7 +10,7 @@ if update_channel:
         if user.status == "kicked":
            await bot.send_message(
                chat_id=msg.chat.id,
-               text="**Sorry Sir, You are Banned. Contact My [Support Group](https://t.me/NET_HCAKER_BOTs).**",
+               text="**Sorry Sir, You are Banned. Contact My [Support Group](https://t.me/NET_HACKER_BOTs_chat).**",
                parse_mode="markdown",
                disable_web_page_preview=True
            )
@@ -22,7 +22,7 @@ if update_channel:
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Join Channel", url=f"https://t.me/{update_channel}")
+                        InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/{update_channel}")
                     ]
                 ]
             ),
