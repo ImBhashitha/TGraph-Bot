@@ -15,8 +15,8 @@ from translation import Translation
 async def help_button(bot, update):
     await update.answer()
     buttons = [[
-        InlineKeyboardButton('📌 Support Group', url='https://t.me/Hackerrdt'),
-        InlineKeyboardButton('Update Channel 📜', url='https://t.me/Network_hacker_bots')
+        InlineKeyboardButton('📌 Support Group', url='https://t.me/NET_HACKER_BOTs_chat'),
+        InlineKeyboardButton('Update Channel 📜', url='https://t.me/NET_HACKER_BOTs')
         ],[
         InlineKeyboardButton('♻️Share', url='tg://msg?text=**Hey%20Broh**%F0%9F%A5%B0%2C%0A__This%20Bot%20Generate%20Telegraph%20Link__%F0%9F%94%A5%0A%0A**Bot%20Link**%20%3A-%20%40TGraphDXBot'),
         InlineKeyboardButton('Close 🔐', callback_data='cancel_btn')
