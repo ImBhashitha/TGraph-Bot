@@ -1,6 +1,6 @@
 class Translation(object):
     START_TEXT = """<b>Hai {}!!!</b>
-<code>Im Simple Telegraph Uploader Bot😜</code>
+<code>Im Simple Telegraph Uploader Bot</code>
 <b>» You Must Join My Updates Channel for using me</b>
 <i>Click Help Button For More Details</i>"""
     HELP_TEXT = """<b>Hey {}!!!,Please Folow these Steps</b>
