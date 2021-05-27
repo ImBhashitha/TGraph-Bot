@@ -15,7 +15,7 @@ from translation import Translation
 async def start(bot, update):
     buttons = [[
         InlineKeyboardButton('⚙️ Help', callback_data='help_btn'),
-        InlineKeyboardButton('Support Group 📌', url='https://t.me/Hackerrdt')
+        InlineKeyboardButton('Support Group 📌', url='https://t.me/NET_HACKER_BOTs_chat')
         ],[
         InlineKeyboardButton('youtube channel 🌟', url='https://www.youtube.com/channel/UCD-g7g3-tfvKECxXKqySq7g'),
         InlineKeyboardButton('Close 🔐', callback_data='cancel_btn')
@@ -33,8 +33,8 @@ async def start(bot, update):
 async def help_user(bot, update):
     #logger.info(update)
     buttons = [[
-        InlineKeyboardButton('📌 Support Group', url='https://t.me/Hackerrdt'),
-        InlineKeyboardButton('Update Channel 📜', url='https://t.me/Network_hacker_bots')
+        InlineKeyboardButton('📌 Support Group', url='https://t.me/NET_HACKER_BOTs_chat'),
+        InlineKeyboardButton('Update Channel 📜', url='https://t.me/NET_HACKER_BOTs')
         ],[
         InlineKeyboardButton('♻️Share', url=''),
         InlineKeyboardButton('Close 🔐', callback_data='cancel_btn')
