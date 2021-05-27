@@ -1,7 +1,7 @@
 # (c) @AbirHasan2005
 
 import asyncio
-from Configs import Config
+from configs import config
 from pyrogram.errors import FloodWait, UserNotParticipant
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
