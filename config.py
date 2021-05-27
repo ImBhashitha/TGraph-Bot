@@ -1,9 +1,9 @@
 from dotenv import load_dotenv, find_dotenv
 import os
 
-load_dotenv(find_dotenv())
+
 class Config(object):
-    BOT_TOKEN = os.getenv("BOT_TOKEN")
-    API_ID = int(os.getenv("API_ID"))
-    API_HASH = os.getenv("API_HASH")
-    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN")
+	API_ID = int(os.environ.get("API_ID", 12345))
+	API_HASH = os.environ.get("API_HASH")
+	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
